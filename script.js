@@ -11,5 +11,5 @@ $(document).ready(function () {
 
 function myAlert(event) {
     var num = event.target.id;
-    window.alert("Accusation" + num + "I accuse " + friends[num % 5] + "with the" + weapons[num % 20] + "in the " + locations[num % 10]);
+    window.alert("Accusation " + num + ": I accuse " + friends[num % 5] + " with the " + weapons[num % 20] + " in the " + locations[num % 10]);
 };
